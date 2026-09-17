@@ -37,3 +37,29 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Todos los demás retailers son nuevos en el tracker (sin precio previo con el cual comparar variación %).
 
 **Precios/ofertas no confirmados por WebFetch directo (Google Shopping y páginas de producto bloqueadas por EGRESS_BLOCKED); todas las cifras de esta sección provienen de snippets de WebSearch y deben tratarse con la cautela correspondiente. No se inventó ninguna cifra: donde no había dato confiable, se dejó explícito.**
+
+---
+
+## 2026-09-17
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries) → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co`, `www.alkosto.com`, `www.falabella.com.co`, `www.mercadolibre.com.co`, `gameplanet.com`, `gameplay.com.co` y `www.elespectador.com` → todos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con múltiples consultas dirigidas por retailer para reconstruir precios a partir de los snippets.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | **$4.199.000** | Financiación: 24 cuotas de $183.325/mes (oferta vigente 1–30 sep 2026). **Sin cambio** respecto a la entrada anterior. WebFetch directo bloqueado; cifra reconstruida de snippets (nota de prensa + listados), tratar con cautela moderada. | WebSearch |
+| Éxito | **$4.299.900** | 12 cuotas sin interés. Página: `exito.com/consola-ps5-pro-2-tb-blanco-3192604/p`. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | "Producto agotado" confirmado nuevamente (mismo código 711719595700, también en Alkomprar). Un snippet mencionaba una consulta de "disponibilidad" en la categoría general de consolas, pero no confirma que la PS5 Pro Digital 2TB específica esté en stock — se trata como **sin cambio** respecto a la entrada anterior. | WebSearch |
+| Enjoy VideoGames | **$3.699.000** (cifra consistente en varias búsquedas) | Listados en preventa/agotado, con disponibilidad estimada en 15–21 días tras la compra — sigue sin ser una compra inmediata real. **Sin cambio** respecto a la entrada anterior. Un snippet aislado mostró $2.960.000, pero es contradictorio con el resto de resultados y probablemente corresponde a otra variante/producto (posible mezcla con la unidad de disco u otro bundle) — **no se usa** por no ser confiable. | WebSearch |
+| Falabella | Sin precio confiable confirmado | Falabella lista al menos 4 variantes/páginas distintas (consola sola y varios bundles). Un snippet devolvió una cifra internamente inconsistente ("29% desc., de $3.689.900 a $4.999.000" — la matemática no cuadra), probablemente por mezclar precios de productos distintos en el resumen de búsqueda. Sin acceso directo (bloqueado) no se puede aislar el precio real de la consola sola. **No se registra cifra — no inventada.** | WebSearch |
+| Mercado Libre | Sin cifra confirmada en snippets | Listados activos (ej. `MCO43294311`, `MCO41975964`) mencionan "cuotas sin interés", pero el precio no aparece en los snippets. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-16, retailer por retailer):**
+- Sony Store Colombia: $4.199.000 → $4.199.000 (**sin cambio**).
+- Éxito: $4.299.900 → $4.299.900 (**sin cambio**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: $3.699.000 (agotado) → $3.699.000 (agotado/preventa) (**sin cambio real**).
+- Falabella: sin cifra confiable (bundle no comparable) → sigue sin cifra confiable (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No hubo bajadas de precio, ninguna tienda alcanzó la meta del usuario con disponibilidad real (Enjoy VideoGames sigue en $3.699.000 pero agotado/preventa, igual que ayer), no aparecieron retailers ni ofertas nuevas, y sí se obtuvo precio confiable de al menos un retailer (no aplica la condición de "2 días seguidos sin datos"). **No se cumplió ninguna condición de notificación.**
