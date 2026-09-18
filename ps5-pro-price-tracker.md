@@ -63,3 +63,29 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No hubo bajadas de precio, ninguna tienda alcanzó la meta del usuario con disponibilidad real (Enjoy VideoGames sigue en $3.699.000 pero agotado/preventa, igual que ayer), no aparecieron retailers ni ofertas nuevas, y sí se obtuvo precio confiable de al menos un retailer (no aplica la condición de "2 días seguidos sin datos"). **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-18
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt) → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co` y `www.alkosto.com` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y dirigidas por retailer (Éxito, Alkosto, Enjoy VideoGames, Falabella, Mercado Libre) para intentar reconstruir precios a partir de los snippets.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | **$4.199.000** (aprox., sin confirmar hoy) | Los snippets de hoy solo repiten la financiación de 24 cuotas de $183.325/mes (oferta 1–30 sep 2026), ya conocida. No se encontró un precio de contado nuevo en los snippets. Se mantiene el último valor conocido como referencia, **sin poder confirmarlo de nuevo hoy**. | WebSearch (sin cifra nueva en snippets; WebFetch directo bloqueado) |
+| Éxito | Sin precio confirmado hoy | Los snippets de hoy muestran páginas de producto distintas a las de ayer (`consola-playstation-5-pro-2tb-digital-2-mandos-cargador-dobe-103972507-mp` y `playstation-5-pro-2tb-104366926-mp`), pero ninguno trae el precio en el snippet. No se puede confirmar si el precio de ayer ($4.299.900) sigue vigente. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Snippet confirma nuevamente "no hay unidades disponibles en este momento" para el mismo código de producto (711719595700). **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Enjoy VideoGames | Sin precio confirmado hoy | Los snippets de hoy no devolvieron precio ni disponibilidad específicos de Enjoy VideoGames para este producto (solo resultados genéricos de otras tiendas). No se puede confirmar si el precio de ayer ($3.699.000, agotado/preventa) sigue vigente. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Falabella | Sin precio confiable confirmado (Colombia) | Los snippets de hoy listan al menos 4 páginas de producto distintas en Falabella Colombia (bundle 139040647, variante 73119842, variante 145535455, y la vitrina `shop/ps5-pro`), pero ninguna trae el precio de Colombia en el snippet. Un snippet sí trae una cifra concreta, pero es de **Falabella Perú** (S/ 3.899,90 con 22% de descuento), **no de Colombia** — se descarta por no ser el mercado correcto. **No se registra cifra — no inventada.** | WebSearch |
+| Mercado Libre | Sin cifra confirmada en snippets | Listados activos (`MCO43294311`, `MCO41975964`) mencionan "cuotas sin interés" y envío gratis, igual que en entradas anteriores, pero el precio no aparece en los snippets. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-17, retailer por retailer):**
+- Sony Store Colombia: $4.199.000 → no se pudo reconfirmar hoy (sin cifra nueva en snippets); se trata como **sin cambio** ya que no hay evidencia de variación.
+- Éxito: $4.299.900 → no se pudo reconfirmar hoy; se trata como **sin cambio** (sin evidencia de variación).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: $3.699.000 (agotado/preventa) → no se pudo reconfirmar hoy; se trata como **sin cambio** (sin evidencia de variación).
+- Falabella: sin cifra confiable para Colombia → sigue sin cifra confiable para Colombia (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (no hubo cifras nuevas que comparar, solo confirmaciones de "sin cambio" o falta de dato). Ningún retailer alcanza la meta del usuario con disponibilidad real. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto: agotado, confirmado), por lo que no aplica la condición de "2 días seguidos sin datos confiables". **No se cumplió ninguna condición de notificación.**
