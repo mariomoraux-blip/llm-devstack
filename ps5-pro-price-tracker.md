@@ -89,3 +89,29 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (no hubo cifras nuevas que comparar, solo confirmaciones de "sin cambio" o falta de dato). Ningún retailer alcanza la meta del usuario con disponibilidad real. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto: agotado, confirmado), por lo que no aplica la condición de "2 días seguidos sin datos confiables". **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-19
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt) → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co` y `www.alkosto.com` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y dirigidas por retailer (Sony Store, Éxito, Falabella, Alkosto, Mercado Libre, Enjoy VideoGames) para intentar reconstruir precios a partir de los snippets.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | **$4.199.000** (aprox., sin confirmar hoy) | Los snippets de hoy siguen repitiendo la financiación de 24 cuotas de $183.325/mes (oferta 1–30 sep 2026), ya conocida. No se encontró un precio de contado nuevo en los snippets. Se mantiene el último valor conocido como referencia, **sin poder confirmarlo de nuevo hoy**. | WebSearch (sin cifra nueva en snippets; WebFetch directo bloqueado) |
+| Éxito | Sin precio confirmado hoy | Los snippets de hoy muestran dos páginas de producto (`consola-playstation-5-pro-2tb-digital-2-mandos-cargador-dobe-103972507-mp` — bundle con 2 mandos, y `consola-ps5-pro-2-tb-blanco-3192604/p` — consola sola), pero ninguna trae el precio en el snippet. No se puede confirmar si el último precio conocido ($4.299.900, registrado el 2026-09-16) sigue vigente. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Snippet confirma nuevamente "en este momento el producto no cuenta con unidades disponibles para la venta en nuestra tienda online" para el mismo código de producto (711719595700), también reflejado en Ktronix y Alkomprar. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Enjoy VideoGames | **$3.699.000** | Snippet confirma nuevamente el precio de $3.699.000 COP, pero el producto sigue **agotado / sin stock** — no es una compra inmediata real. **Sin cambio** respecto a las entradas del 2026-09-16 y 2026-09-17 (ayer 09-18 no se había podido reconfirmar). | WebSearch (`enjoyvideogames.com.co/product/sony-playstation-5-pro-2tb/`) |
+| Falabella | Sin precio confiable confirmado | Los snippets de hoy listan varias páginas de producto en Falabella Colombia (bundle 139040647, variante 73119842, variante 145535455, variante 139051769, y las vitrinas `shop/ps5-pro` y `shop/playstation-5-pro`), pero ninguna trae el precio en el snippet. **No se registra cifra — no inventada.** | WebSearch |
+| Mercado Libre | Sin cifra confirmada en snippets | Listado activo (`MCO43294311` — "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco") menciona "cuotas sin interés" y envío gratis, igual que en entradas anteriores, pero el precio no aparece en el snippet. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-18, retailer por retailer):**
+- Sony Store Colombia: ~$4.199.000 (sin confirmar) → ~$4.199.000 (sin confirmar hoy tampoco) (**sin cambio**).
+- Éxito: sin cifra nueva desde el 09-16 ($4.299.900) → sigue sin poder reconfirmarse (**sin cambio**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: no se pudo reconfirmar ayer → hoy se reconfirma $3.699.000 (agotado), igual que el último valor conocido del 09-17 (**sin cambio real**).
+- Falabella: sin cifra confiable para Colombia → sigue sin cifra confiable (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer. Ningún retailer alcanza la meta del usuario con disponibilidad real (Enjoy VideoGames sigue en $3.699.000, que cumpliría el umbral de precio, pero continúa agotado — se trata como referencia, no como oportunidad de compra real, igual que en entradas anteriores). No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables". **No se cumplió ninguna condición de notificación.**
