@@ -115,3 +115,29 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer. Ningún retailer alcanza la meta del usuario con disponibilidad real (Enjoy VideoGames sigue en $3.699.000, que cumpliría el umbral de precio, pero continúa agotado — se trata como referencia, no como oportunidad de compra real, igual que en entradas anteriores). No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables". **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-20
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y dirigidas por retailer (Sony Store, Éxito, Falabella, Alkosto, Mercado Libre, Enjoy VideoGames) para intentar reconstruir precios a partir de los snippets.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | **$4.199.000** (aprox., sin confirmar hoy) | Los snippets de hoy solo repiten la financiación de 24 cuotas de $183.325/mes, ya conocida; no aparece un precio de contado nuevo. Se detectó además una nota internacional (PlayStation.Blog, 27 mar 2026) sobre una subida global de precios de PS5/PS5 Pro efectiva el 2 abr 2026 y una posterior baja en EE. UU. el 21 ago 2026 — ambas son noticias antiguas (no de hoy) y no específicas de Colombia, por lo que **no se cuentan como novedad**. Se mantiene el último valor conocido como referencia, sin poder confirmarlo de nuevo hoy. | WebSearch (sin cifra nueva en snippets; WebFetch directo bloqueado) |
+| Éxito | Sin precio confirmado hoy | Los snippets de hoy muestran tres páginas de producto (`consola-playstation-5-pro-2tb-digital-2-mandos-cargador-dobe-103972507-mp`, `playstation-5-pro-2tb-104366926-mp` y `consola-ps5-pro-2-tb-blanco-3192604/p`), pero ninguna trae el precio en el snippet. No se puede confirmar si el último precio conocido ($4.299.900, registrado el 2026-09-16) sigue vigente. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Snippet confirma nuevamente que el producto (código 711719595700) no cuenta con unidades disponibles, mismo estado reflejado en Alkomprar. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Enjoy VideoGames | Sin precio confirmado hoy (agotado / disponibilidad estimada ~21 días) | Los snippets de hoy confirman que el producto sigue agotado/en backorder, pero no repitieron la cifra exacta ($3.699.000) dentro del snippet. Se mantiene ese valor como última referencia conocida (2026-09-19), **sin poder reconfirmarlo hoy**. | WebSearch |
+| Falabella | Sin precio confiable confirmado | Los snippets de hoy listan las mismas variantes/páginas de siempre en Falabella Colombia (bundle 139040647, variante 73119842, variante 145535455, variante 139051769, y las vitrinas `shop/ps5-pro` y `shop/playstation-5-pro`, esta última promocionando "PS5 Pro en Aniversario Falabella"), pero ninguna trae el precio en el snippet. **No se registra cifra — no inventada.** | WebSearch |
+| Mercado Libre | Sin cifra confirmada en snippets | Listados activos (`MCO43294311`, `MCO41975964`) mencionan "cuotas sin interés" y envío gratis, igual que en entradas anteriores, pero el precio no aparece en los snippets. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-19, retailer por retailer):**
+- Sony Store Colombia: ~$4.199.000 (sin confirmar) → ~$4.199.000 (sin confirmar hoy tampoco) (**sin cambio**).
+- Éxito: sin cifra nueva desde el 09-16 ($4.299.900) → sigue sin poder reconfirmarse (**sin cambio**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: $3.699.000 (agotado, reconfirmado) → agotado/backorder, cifra exacta no reconfirmada hoy en snippet (**sin cambio real**; se mantiene la última cifra conocida como referencia).
+- Falabella: sin cifra confiable para Colombia → sigue sin cifra confiable (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Retailers nuevos: ninguno confirmado con precio (aparecieron en los snippets nombres ya vistos como Gameplay, Colombian UP, Play For Fun y Puntos Colombia en búsquedas previas de días anteriores, pero hoy no trajeron precio ni son nuevos respecto al radar del tracker). Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (no hubo cifras nuevas que comparar). Ningún retailer alcanza la meta del usuario con disponibilidad real. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo (la noticia de subida/bajada global de precios de Sony es antigua, no de Colombia, y no constituye novedad de hoy). Se obtuvo al menos un dato confiable hoy (Alkosto: agotado, confirmado), por lo que no aplica la condición de "2 días seguidos sin datos confiables". **No se cumplió ninguna condición de notificación.**
