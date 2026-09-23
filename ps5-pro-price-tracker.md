@@ -197,3 +197,32 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% confiable en ningún retailer (no hubo cifras nuevas que comparar). Ningún retailer alcanza la meta del usuario con disponibilidad real y datos confiables. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Éxito y Alkosto confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer" (solo Enjoy VideoGames tiene 2 días seguidos sin dato, no todos los retailers). **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-23
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales, dirigidas por retailer (Sony Store, Alkosto, Éxito, Falabella, Mercado Libre, Enjoy VideoGames, Ktronix), incluyendo búsquedas `site:` dirigidas a Sony Store y Enjoy VideoGames.
+
+**Nota de calidad de datos:** Enjoy VideoGames no devolvió ningún resultado propio hoy ni con la consulta general ni con `site:enjoyvideogames.com.co` (los resultados fueron de otros sitios internacionales). Es el tercer día consecutivo (09-21, 09-22, 09-23) sin poder confirmar una cifra confiable para este retailer, tras la contradicción de precios detectada el 09-21. Se detectó además, en el snippet de Sony Store, una mención genérica a una promoción "Days of Play" con financiación al 0% de interés, pero sin precio ni porcentaje de descuento concreto asociado a la PS5 Pro específicamente — **no se cuenta como novedad confirmada** por no incluir cifra verificable.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | Sin precio confirmado hoy (~$4.199.000 como última referencia, sin reconfirmar) | El snippet solo confirma que la página del producto existe (`store.sony.com.co/ps5-pro-hw-2tb/p`) y menciona una promoción genérica "Days of Play" con financiación 0% interés, sin precio ni descuento concreto en el snippet. **No se registra cifra nueva — no inventada.** | WebSearch (WebFetch directo bloqueado) |
+| Éxito | **$4.299.900** | 12 cuotas sin interés. Página: `exito.com/consola-ps5-pro-2-tb-blanco-3192604/p`. **Sin cambio** respecto a la última cifra confirmada (2026-09-16, reconfirmada 2026-09-22). | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Snippet confirma nuevamente que el producto (código 711719595700) está agotado / sin unidades disponibles para la venta en la tienda online. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Ktronix | Sin precio confirmado (producto agotado / sin stock) | Retailer nuevo en el radar del tracker (mismo código de producto 711719595700 que Alkosto). El snippet indica que el producto no cuenta con unidades disponibles y no muestra precio. Al no traer cifra ni oferta concreta, **no se cuenta como novedad confirmada** — se deja registrado para seguimiento en próximas entradas. | WebSearch |
+| Enjoy VideoGames | **Sin cifra confiable hoy** (ver nota de calidad de datos arriba) | Tercer día consecutivo sin poder confirmar precio para este retailer (contradicción el 09-21, contradicción el 09-22, sin resultados propios el 09-23). | WebSearch (no confiable — descartado) |
+| Falabella | **$4.999.800** (antes $5.599.800, ~10,7% dcto.) — bundle "2 Mandos + Cargador Dobe" (SKU 139040647), no el producto base | Misma cifra ya registrada el 2026-09-21 para este bundle; **sin cambio**. Los productos base (73119842, 145535455, 139051769) y la vitrina "PS5 Pro en Aniversario Falabella" siguen sin mostrar precio en los snippets. | WebSearch |
+| Mercado Libre | Sin cifra confirmada en snippets | Listados activos (`MCO43294311`, `MCO41975964`) mencionan "cuotas sin interés", igual que en entradas anteriores, pero el precio no aparece en los snippets. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-22, retailer por retailer):**
+- Sony Store Colombia: ~$4.199.000 (sin confirmar) → sin poder reconfirmarse hoy tampoco (**sin cambio**); se detectó mención genérica a promoción "Days of Play" sin cifra concreta (no cuenta como novedad).
+- Éxito: $4.299.900 → $4.299.900 (**sin cambio**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: no confiable (09-22) → sigue no confiable, ahora sin ningún resultado propio (09-23) (**sin cambio real**, tercer día de dato perdido).
+- Falabella: sin cifra confiable para el producto base → sigue sin cifra confiable para el producto base (**sin cambio**); el bundle de 2 mandos + cargador repite exactamente el mismo precio del 09-21 ($4.999.800), sin cambio.
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Retailers nuevos: **Ktronix** aparece por primera vez en el radar (mismo producto que Alkosto, código 711719595700), pero sin precio ni disponibilidad — no se cuenta como novedad de precio real, solo se agrega al radar de retailers a seguir. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (Éxito y el bundle de Falabella repiten exactamente los mismos valores previos). Ningún retailer alcanza la meta del usuario (≤$3.700.000 o ≥20% dcto.) con disponibilidad real y datos confiables. No hubo novedad concreta y confirmada (el retailer nuevo Ktronix no trae precio, y la promoción de Sony no trae cifra). Se obtuvo al menos un dato confiable hoy (Éxito, Alkosto y Falabella-bundle confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer" (solo Enjoy VideoGames acumula 3 días sin dato, no todos los retailers). **No se cumplió ninguna condición de notificación.**
