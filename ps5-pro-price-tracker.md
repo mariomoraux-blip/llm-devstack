@@ -256,3 +256,33 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% confiable en ningún retailer (Falabella-bundle repite exactamente el mismo valor). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real y datos confiables — la cifra de Enjoy VideoGames que técnicamente cumpliría la meta ($1.990.000) se descarta explícitamente por no ser fiable. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo y confirmado. Se obtuvo al menos un dato confiable hoy (Alkosto y Falabella-bundle confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer" (solo Enjoy VideoGames acumula 4 días sin dato fiable, no todos los retailers). **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-25
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y `site:` dirigidas por retailer (Sony Store, Éxito, Alkosto, Falabella, Mercado Libre, Enjoy VideoGames, Ktronix).
+
+**Nota de calidad de datos:** un resumen de WebSearch general recalculó el precio de Sony Store a partir de la financiación ya conocida (24 cuotas de $183.325/mes ≈ $4.399.800 en total), cifra distinta a la referencia habitual de ~$4.199.000 registrada en entradas anteriores. Esta es una recombinación aritmética del propio resumen de búsqueda, no una cifra nueva confirmada en un snippet de la página de producto — la financiación en sí (24x$183.325) es la misma que ya se venía registrando sin cambios desde el 2026-09-16. **No se trata como cambio de precio real**, se mantiene como referencia no reconfirmada. Además, un resumen mencionó "Pepe Ganga" como posible retailer adicional junto con Alkosto y Sony Store a ~$4.199.000, pero sin snippet propio de Pepe Ganga que lo confirme — se anota para seguimiento, sin registrar cifra. Enjoy VideoGames sigue sin cifra confiable y consistente (quinto día consecutivo, 09-21 a 09-25); el único valor que apareció hoy ($3.730.000) corresponde al bundle con unidad de disco (producto distinto), como ya se había identificado en entradas previas.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | Sin precio confirmado hoy (~$4.199.000 como última referencia, sin reconfirmar) | El snippet solo confirma que la página del producto existe (`store.sony.com.co/ps5-pro-hw-2tb/p`); no trae precio de contado ni descuento concreto. Ver nota de calidad de datos sobre la recombinación aritmética de $4.399.800 (no usada). **No se registra cifra nueva — no inventada.** | WebSearch (WebFetch directo bloqueado) |
+| Éxito | **$4.299.900** | 12 cuotas sin interés. Página: `exito.com/consola-ps5-pro-2-tb-blanco-3192604/p`. **Sin cambio** respecto a la última cifra confirmada (reconfirmada el 2026-09-22). | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Snippet confirma nuevamente que el producto (código 711719595700) no cuenta con unidades disponibles para la venta en la tienda online. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Falabella | **$4.999.800** (antes $5.599.800, ~10,7% dcto.) — bundle "2 Mandos + Cargador Dobe" (SKU 139040647), no el producto base | Misma cifra ya registrada el 09-21, 09-23 y 09-24 para este bundle; **sin cambio**. Los productos base (73119842, 145535455, 139051769) y la vitrina "PS5 Pro en Aniversario Falabella" siguen sin mostrar precio en los snippets. | WebSearch |
+| Enjoy VideoGames | **Sin cifra confiable hoy** (ver nota de calidad de datos arriba) | Quinto día consecutivo sin poder confirmar un precio fiable y consistente para el producto base (Digital 2TB); el único valor visto hoy ($3.730.000) corresponde al bundle con unidad de disco. | WebSearch (no confiable — descartado) |
+| Mercado Libre | Sin cifra confirmada en snippets | Listado activo (`MCO43294311` — "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco") menciona "cuotas sin interés", igual que en entradas anteriores, pero el precio no aparece en el snippet. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Ktronix | Sin precio confirmado hoy | No se repitió una búsqueda dirigida exitosa a Ktronix hoy (el snippet solo confirma que la página de producto existe, sin precio); se mantiene el estado del 09-23 (agotado, sin precio) como última referencia, sin reconfirmar. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-24, retailer por retailer):**
+- Sony Store Colombia: sin confirmar → sin confirmar hoy tampoco (**sin cambio**); ver nota sobre la recombinación aritmética descartada.
+- Éxito: sin confirmar el 09-24 → hoy se reconfirma $4.299.900, mismo valor que el 09-22 (**sin cambio real**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Falabella (bundle): $4.999.800 → $4.999.800 (**sin cambio**).
+- Enjoy VideoGames: no confiable (4to día, 09-24) → sigue no confiable (5to día, 09-25) (**sin cambio real**, dato perdido).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Ktronix: sin reconfirmar (09-24) → sin reconfirmar hoy tampoco (se mantiene como referencia).
+- Retailers nuevos: se mencionó "Pepe Ganga" en un resumen general sin snippet propio que lo confirme — no se cuenta como retailer nuevo confirmado, solo se anota para seguimiento en próximas entradas. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% confiable en ningún retailer (Éxito y Falabella-bundle repiten exactamente los mismos valores previos). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real y datos confiables. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo y confirmado (la mención de "Pepe Ganga" no se pudo confirmar con snippet propio). Se obtuvo al menos un dato confiable hoy (Éxito, Alkosto y Falabella-bundle confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer" (solo Enjoy VideoGames acumula 5 días sin dato fiable, no todos los retailers). **No se cumplió ninguna condición de notificación.**
