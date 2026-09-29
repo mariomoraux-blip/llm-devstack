@@ -382,3 +382,37 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: **Colombian UP** mencionado por primera vez, pero sin precio ni disponibilidad confirmados — no se cuenta como novedad real. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (todas las cifras confirmadas hoy repiten valores ya conocidos: Éxito, Falabella-bundle y Enjoy VideoGames). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real: Enjoy VideoGames iguala el umbral de precio pero sigue agotado, igual que en entradas anteriores — no es una oportunidad de compra nueva ni real. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo y confirmado (Colombian UP se menciona pero sin precio ni disponibilidad, igual que Ktronix y Pepe Ganga en su momento). Se obtuvo al menos un dato confiable hoy (Éxito, Alkosto, Falabella-bundle y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-29
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y dirigidas por retailer (Sony Store, Éxito, Alkosto, Falabella, Enjoy VideoGames, Mercado Libre, Ktronix, Pepe Ganga, Colombian UP).
+
+**Nota de calidad de datos:** ningún retailer nuevo apareció hoy más allá de los ya conocidos (Colombian UP, mencionado desde el 09-28, sigue sin precio confirmado). Ktronix confirmó hoy explícitamente estado "agotado / sin stock" (antes solo se mantenía como referencia sin reconfirmar desde el 09-23). No se detectaron cifras contradictorias ni implausibles hoy.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | Sin precio confirmado hoy (~$4.199.000 como última referencia, sin reconfirmar) | Un resumen general repite la cifra habitual de ~$4.199.000 atribuida a "principales e-commerce de Colombia", y la financiación ya conocida (24 cuotas de $183.325/mes), sin snippet propio de la página de producto que lo confirme hoy. **No se registra cifra nueva — no inventada.** | WebSearch (WebFetch directo bloqueado) |
+| Éxito | Sin precio confirmado hoy (~$4.299.900 como última referencia, reconfirmada el 2026-09-28) | Los snippets de hoy muestran las mismas páginas de producto ya conocidas (`exito.com/consola-ps5-pro-2-tb-blanco-3192604/p`, `playstation-5-pro-2tb-104366926-mp`), pero ninguna trae el precio en el snippet. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | El resumen de WebSearch confirma nuevamente que el producto (código 711719595700) no cuenta con unidades disponibles para la venta en la tienda online. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Falabella | Sin precio confiable confirmado hoy (bundle "2 Mandos + Cargador Dobe" con última cifra conocida de $4.999.800, sin reconfirmar hoy) | Los snippets de hoy listan las mismas páginas ya conocidas (producto base 73119842, 139051769, 145535455, vitrina "PS5 Pro en Aniversario Falabella"), pero ninguna trae el precio en el snippet. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Enjoy VideoGames | **$3.699.000** (**producto agotado / sin stock**) | Cifra reconfirmada hoy, idéntica al último valor confiable conocido (2026-09-28). Sigue sin disponibilidad real, por lo que **no** se trata como oportunidad de compra ni meta alcanzada. | WebSearch (`enjoyvideogames.com.co/product/sony-playstation-5-pro-2tb/`) |
+| Mercado Libre | Sin cifra confirmada en snippets | Listados activos (`MCO43294311`, `MCO41975964`) mencionan "cuotas sin interés", igual que en entradas anteriores, pero el precio no aparece en los snippets. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Ktronix | Sin precio (**producto agotado / sin stock**, confirmado hoy) | El resumen de WebSearch confirma explícitamente hoy que el producto (código 711719595700) no cuenta con unidades disponibles, igual que en Alkosto y Alkomprar (retailers relacionados). Coincide con el estado de referencia del 09-23, ahora reconfirmado directamente. | WebSearch |
+| Pepe Ganga | Sin precio confirmado hoy | No se repitió búsqueda con snippet nuevo; se mantiene el estado del 09-27 (sin precio) como última referencia, sin reconfirmar. | WebSearch |
+| Colombian UP | Sin precio confirmado | Segundo día que aparece en el radar (mencionado el 09-28), con página de producto propia confirmada (`colombianup.com/tienda/consolas/consola-playstation-5-digital-pro-2tb/`), pero **sin precio ni disponibilidad en el snippet**. Se mantiene en el radar de retailers a seguir; **no se cuenta como novedad de precio real**. | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-28, retailer por retailer):**
+- Sony Store Colombia: sin confirmar → sin confirmar hoy tampoco (**sin cambio**).
+- Éxito: $4.299.900 (reconfirmado 09-28) → sin poder reconfirmarse hoy (**sin cambio**, sin evidencia de variación).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Falabella (bundle): $4.999.800 → sin reconfirmar hoy (**sin cambio**, sin evidencia de variación).
+- Enjoy VideoGames: $3.699.000 (agotado, reconfirmado 09-28) → $3.699.000 (agotado, reconfirmado hoy) (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Ktronix: sin reconfirmar desde el 09-23 → hoy se reconfirma explícitamente "agotado/sin stock" (**sin cambio real**, solo se refuerza el dato de referencia).
+- Pepe Ganga: sin precio → sin precio hoy tampoco (**sin cambio**).
+- Colombian UP: mencionado por primera vez (09-28) → sigue en el radar hoy, aún sin precio (**sin cambio**).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (las únicas cifras confirmadas hoy, Enjoy VideoGames y el estado de Alkosto/Ktronix, repiten valores ya conocidos). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real: Enjoy VideoGames iguala el umbral de precio pero sigue agotado, igual que en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo (Colombian UP sigue sin precio ni disponibilidad, igual que Pepe Ganga). Se obtuvo al menos un dato confiable hoy (Alkosto, Ktronix y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
