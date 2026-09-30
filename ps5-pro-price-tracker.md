@@ -416,3 +416,37 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (las únicas cifras confirmadas hoy, Enjoy VideoGames y el estado de Alkosto/Ktronix, repiten valores ya conocidos). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real: Enjoy VideoGames iguala el umbral de precio pero sigue agotado, igual que en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo (Colombian UP sigue sin precio ni disponibilidad, igual que Pepe Ganga). Se obtuvo al menos un dato confiable hoy (Alkosto, Ktronix y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-09-30
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y `site:` dirigidas por retailer (Sony Store, Éxito, Alkosto, Falabella, Enjoy VideoGames).
+
+**Nota de calidad de datos:** ningún retailer nuevo apareció hoy. No se hicieron búsquedas dirigidas hoy a Ktronix, Pepe Ganga ni Colombian UP (se mantienen sus últimas referencias sin reconfirmar). No se detectaron cifras contradictorias ni implausibles hoy.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Sony Store Colombia | Sin precio confirmado hoy (~$4.199.000 como última referencia, sin reconfirmar) | El snippet solo confirma que la página del producto existe (`store.sony.com.co/ps5-pro-hw-2tb/p`); no trae precio ni descuento concreto en el resumen. **No se registra cifra nueva — no inventada.** | WebSearch (WebFetch directo bloqueado) |
+| Éxito | Sin precio confirmado hoy (~$4.299.900 como última referencia, reconfirmada el 2026-09-28) | Los snippets de hoy muestran las mismas páginas ya conocidas (`exito.com/t/ps5-pro`, `consola-ps5-pro-2-tb-blanco-3192604/p`, `playstation-5-pro-2tb-104366926-mp`), pero ninguna trae el precio en el snippet. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | El resumen de WebSearch confirma nuevamente que el producto (código 711719595700) no cuenta con unidades disponibles para la venta en la tienda online. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Falabella | Sin precio confiable confirmado hoy (bundle "2 Mandos + Cargador Dobe", última cifra conocida $4.999.800, sin reconfirmar hoy) | Los snippets de hoy listan las mismas páginas ya conocidas (bundle 139040647, producto base 73119842 y 145535455, vitrinas "PS5 Pro en Aniversario Falabella"), pero ninguna trae el precio en el snippet. **No se registra cifra nueva — no inventada.** | WebSearch |
+| Enjoy VideoGames | **$3.699.000** (**producto agotado / sin stock**) | Cifra reconfirmada hoy, idéntica al último valor confiable conocido (2026-09-29). Sigue sin disponibilidad real, por lo que **no** se trata como oportunidad de compra ni meta alcanzada. | WebSearch (`enjoyvideogames.com.co/product/sony-playstation-5-pro-2tb/`) |
+| Mercado Libre | Sin cifra confirmada en snippets | Listado activo (`MCO43294311` — "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco") menciona "cuotas sin interés", igual que en entradas anteriores, pero el precio no aparece en el snippet. **Sin cambio** respecto a la entrada anterior. | WebSearch |
+| Ktronix | Sin reconfirmar hoy | No se repitió búsqueda dirigida hoy; se mantiene el estado del 2026-09-29 (agotado/sin stock, confirmado explícitamente) como última referencia. | — (sin búsqueda dirigida hoy) |
+| Pepe Ganga | Sin reconfirmar hoy | No se repitió búsqueda dirigida hoy; se mantiene el estado del 2026-09-27 (sin precio) como última referencia. | — (sin búsqueda dirigida hoy) |
+| Colombian UP | Sin reconfirmar hoy | No se repitió búsqueda dirigida hoy; se mantiene el estado del 2026-09-29 (sin precio) como última referencia. | — (sin búsqueda dirigida hoy) |
+
+**Comparación con la entrada anterior (2026-09-29, retailer por retailer):**
+- Sony Store Colombia: sin confirmar → sin confirmar hoy tampoco (**sin cambio**).
+- Éxito: sin confirmar (09-29) → sin confirmar hoy tampoco (**sin cambio**, sin evidencia de variación desde $4.299.900).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Falabella (bundle): sin reconfirmar (09-29) → sin reconfirmar hoy tampoco (**sin cambio**, sin evidencia de variación desde $4.999.800).
+- Enjoy VideoGames: $3.699.000 (agotado, reconfirmado 09-29) → $3.699.000 (agotado, reconfirmado hoy) (**sin cambio**).
+- Mercado Libre: sin cifra → sin cifra (**sin cambio**).
+- Ktronix: agotado (confirmado 09-29) → sin reconfirmar hoy (se mantiene como referencia).
+- Pepe Ganga: sin precio → sin reconfirmar hoy (se mantiene como referencia).
+- Colombian UP: sin precio (09-29) → sin reconfirmar hoy (se mantiene como referencia).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (la única cifra confirmada hoy, Enjoy VideoGames, repite exactamente el valor ya conocido). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real: Enjoy VideoGames iguala el umbral de precio pero sigue agotado, igual que en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
