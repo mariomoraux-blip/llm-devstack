@@ -450,3 +450,37 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (la única cifra confirmada hoy, Enjoy VideoGames, repite exactamente el valor ya conocido). Ningún retailer alcanza la meta del usuario (≤$3.700.000 COP o ≥20% dcto.) con disponibilidad real: Enjoy VideoGames iguala el umbral de precio pero sigue agotado, igual que en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Alkosto y Enjoy VideoGames confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
+
+---
+
+## 2026-10-02
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p`, `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700`, `www.mercadolibre.com.co/.../MCO43294311` y `colombianup.com/.../consola-playstation-5-digital-pro-2tb/` → todos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo con consultas generales y dirigidas por retailer (Sony Store, Éxito, Alkosto, Falabella, Mercado Libre, Enjoy VideoGames, Ktronix, Pepe Ganga, Colombian UP).
+
+**Nota de calidad de datos:** la cifra de Mercado Libre ($3.589.900, 28% dcto.) se reconfirmó de forma **idéntica** en 3 consultas WebSearch independientes (mismo precio original $5.014.143, mismas cuotas de $1.196.633 x3, misma calificación 5/5 con 56 reseñas), lo que da buena confianza de que es una cifra real indexada hoy y no una invención del resumen — aunque no se pudo verificar con WebFetch directo (bloqueado). La cifra de Éxito ($8.397.687 → $4.798.678) es **implausible** (muy por encima de cualquier referencia histórica de esta consola) y **se descarta explícitamente — no se registra como válida**, probablemente una mezcla de productos/bundle distinto en el snippet. Sony Store y Pepe Ganga aparecen con precio confirmado por primera vez en varios días.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Mercado Libre | **$3.589.900** (precio de lista $5.014.143, **28% dcto.**) | Producto exacto: "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco" (MCO43294311). 3 cuotas de $1.196.633 sin interés, envío gratis, 5/5 con 56 reseñas — parece disponible para compra (no agotado). **Cumple AMBAS condiciones de la meta del usuario** (≤$3.700.000 y ≥20% dcto.). | WebSearch (WebFetch directo bloqueado) |
+| Sony Store Colombia | $4.399.804 (precio de lista $4.599.900, ~4,3% dcto.) | Confirmado **en stock (10 unidades)**. Primera reconfirmación de precio en varios días (antes solo había referencia sin confirmar de ~$4.199.000). No alcanza la meta. | WebSearch (WebFetch directo bloqueado) |
+| Falabella | $4.139.900 (precio de lista $4.299.900, 17% dcto.) — producto base 73119842/145535456, distinto del bundle "2 Mandos + Cargador Dobe" seguido antes | Primera reconfirmación de precio del producto base en varios días. No alcanza la meta (17% < 20%, y precio > $3.700.000). | WebSearch (WebFetch directo bloqueado) |
+| Éxito | **Cifra descartada por implausible** ($8.397.687 → $4.798.678 no es creíble; ref. histórica ~$4.299.900 sin reconfirmar hoy) | El snippet mezcla cifras que no corresponden a este producto. **No se registra cifra nueva — no inventada.** | WebSearch (descartado) |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Confirma nuevamente que el producto (código 711719595700) no tiene unidades disponibles. **Sin cambio.** | WebSearch |
+| Enjoy VideoGames | $3.699.000 (**producto agotado / sin stock**) | Cifra reconfirmada hoy, idéntica a la última conocida. Sigue sin disponibilidad real — **no** se trata como oportunidad de compra. | WebSearch |
+| Pepe Ganga | $4.199.900 (**pre-order**) | Primera cifra confirmada para este retailer (antes "sin precio"/sin reconfirmar). No alcanza la meta. | WebSearch |
+| Ktronix | Sin precio (**producto agotado / sin stock**) | Confirmado nuevamente agotado. **Sin cambio.** | WebSearch |
+| Colombian UP | $3.999.000 (precio de lista $4.500.000, ~11% dcto.) | Primera cifra confirmada en varios días (antes "sin precio"). No alcanza la meta (11% < 20%, precio > $3.700.000). | WebSearch |
+
+**Comparación con la entrada anterior (2026-09-30, retailer por retailer):**
+- Mercado Libre: sin cifra confirmada → **$3.589.900 (28% dcto.) — ¡retailer alcanza la meta del usuario por primera vez!**
+- Sony Store Colombia: sin confirmar (~$4.199.000 ref.) → $4.399.804 confirmado, en stock (**reconfirmación, no comparable como "bajada" por falta de cifra previa confiable**).
+- Falabella: sin reconfirmar (bundle $4.999.800) → $4.139.900 confirmado para el producto base, listing distinto al bundle seguido antes (**no comparable directamente, nuevo listing identificado**).
+- Éxito: sin confirmar → cifra de hoy descartada por implausible (**sin cambio real registrable**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Enjoy VideoGames: $3.699.000 (agotado) → $3.699.000 (agotado) (**sin cambio**).
+- Pepe Ganga: sin reconfirmar → $4.199.900 confirmado (pre-order) (**reconfirmación, nueva cifra**).
+- Ktronix: sin reconfirmar → agotado confirmado (**sin cambio**).
+- Colombian UP: sin reconfirmar → $3.999.000 confirmado (11% dcto.) (**reconfirmación, nueva cifra**).
+- Retailers nuevos: ninguno (todos ya se seguían). Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** **¡META ALCANZADA!** Mercado Libre (listing MCO43294311, "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco") ofrece hoy la PS5 Pro Digital 2TB a **$3.589.900 COP**, un **28% de descuento** sobre su precio de lista de $5.014.143 COP, y el producto parece disponible para compra (no agotado, con envío gratis y cuotas sin interés). Esto cumple **ambas** condiciones de la meta del usuario (≤$3.700.000 COP y ≥20% de descuento). Es la primera vez que este retailer muestra un precio confirmado en el tracker, y es además el primer hallazgo de meta alcanzada en una tienda con disponibilidad real (a diferencia de Enjoy VideoGames, que iguala el precio pero sigue agotado). Dato verificado de forma idéntica en 3 búsquedas WebSearch independientes, aunque no se pudo confirmar con WebFetch directo (bloqueado por `EGRESS_BLOCKED`). **Se cumple la condición de notificación.**
