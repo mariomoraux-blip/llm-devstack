@@ -484,3 +484,37 @@ Este archivo se actualiza automáticamente con una entrada diaria (o más de una
 - Retailers nuevos: ninguno (todos ya se seguían). Retailers desaparecidos: ninguno.
 
 **Conclusión de hoy:** **¡META ALCANZADA!** Mercado Libre (listing MCO43294311, "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco") ofrece hoy la PS5 Pro Digital 2TB a **$3.589.900 COP**, un **28% de descuento** sobre su precio de lista de $5.014.143 COP, y el producto parece disponible para compra (no agotado, con envío gratis y cuotas sin interés). Esto cumple **ambas** condiciones de la meta del usuario (≤$3.700.000 COP y ≥20% de descuento). Es la primera vez que este retailer muestra un precio confirmado en el tracker, y es además el primer hallazgo de meta alcanzada en una tienda con disponibilidad real (a diferencia de Enjoy VideoGames, que iguala el precio pero sigue agotado). Dato verificado de forma idéntica en 3 búsquedas WebSearch independientes, aunque no se pudo confirmar con WebFetch directo (bloqueado por `EGRESS_BLOCKED`). **Se cumple la condición de notificación.**
+
+---
+
+## 2026-10-03
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `EGRESS_BLOCKED`. WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados con `EGRESS_BLOCKED`. Se usó **WebSearch** de respaldo (modo estándar y extendido) con consultas generales y dirigidas por retailer (Sony Store, Éxito, Falabella, Alkosto, Mercado Libre, Enjoy VideoGames, Ktronix, Pepe Ganga, Colombian UP).
+
+**Nota de calidad de datos:** la mayoría de las consultas de hoy devolvieron únicamente la cifra genérica de lanzamiento (~$4.199.900) repetida en artículos de prensa antiguos (Xataka, El País, ADN40) que **no son snippets de página de producto de ningún retailer específico** — por lo tanto **no se registran como precio confirmado de Sony Store, Éxito, Falabella, Pepe Ganga ni Colombian UP hoy**, para evitar atribuir una cifra genérica a una tienda concreta sin evidencia directa. La única cifra con confirmación sólida y específica hoy fue **Mercado Libre** (listing MCO43294311), reconfirmada en una búsqueda extendida con el mismo detalle exacto que el 2026-10-02 (precio de lista $5.014.143, 28% dcto., 3 cuotas de $1.196.633 sin interés). Alkosto y Ktronix reconfirmaron explícitamente su estado de agotado/sin stock. Enjoy VideoGames no devolvió snippet propio hoy (no reconfirmado). No se detectaron cifras contradictorias o implausibles hoy (no se repitió el error de Éxito del 10-02).
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Mercado Libre | **$3.589.900** (precio de lista $5.014.143, **28% dcto.**) | Listing MCO43294311, "PlayStation PS5 PRO HW 2TB Digital Standard color Blanco". Cifra idéntica a la del 2026-10-02 (3 cuotas de $1.196.633 sin interés). **Sigue cumpliendo la meta del usuario**, pero sin cambio frente a la entrada anterior. | WebSearch (extendido; WebFetch directo bloqueado) |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Reconfirmado nuevamente hoy que el producto (código 711719595700) no tiene unidades disponibles. **Sin cambio.** | WebSearch |
+| Ktronix | Sin precio (**producto agotado / sin stock**) | Reconfirmado nuevamente hoy, mismo estado que Alkosto. **Sin cambio.** | WebSearch |
+| Sony Store Colombia | Sin precio confirmado hoy (última cifra confiable: $4.399.804, 2026-10-02) | Los snippets de hoy solo repiten la cifra genérica de lanzamiento (~$4.199.900) de artículos de prensa antiguos, no un snippet propio de `store.sony.com.co` con precio actual. **No se registra cifra nueva — no inventada.** | WebSearch (descartado por no ser específico) |
+| Éxito | Sin precio confirmado hoy (sin referencia confiable previa; el 10-02 se descartó por implausible) | Mismo problema que Sony Store: solo cifra genérica de prensa, sin snippet propio de Éxito. **No se registra cifra nueva — no inventada.** | WebSearch (descartado) |
+| Falabella | Sin precio confirmado hoy (última cifra confiable: $4.139.900, 17% dcto., 2026-10-02) | Sin snippet propio de Falabella hoy, solo la cifra genérica de prensa. **No se registra cifra nueva — no inventada.** | WebSearch (descartado) |
+| Pepe Ganga | Sin precio confirmado hoy (última cifra confiable: $4.199.900 pre-order, 2026-10-02) | La búsqueda de hoy no devolvió ningún snippet propio de Pepe Ganga (solo resultados internacionales irrelevantes). **No se registra cifra nueva — no inventada.** | WebSearch (sin snippet propio) |
+| Colombian UP | Sin precio confirmado hoy (última cifra confiable: $3.999.000, 11% dcto., 2026-10-02) | La búsqueda de hoy no devolvió snippet propio de colombianup.com con precio, solo la cifra genérica de prensa. **No se registra cifra nueva — no inventada.** | WebSearch (descartado) |
+| Enjoy VideoGames | Sin reconfirmar hoy (última cifra conocida: $3.699.000, agotado, 2026-09-30) | La búsqueda dirigida no devolvió snippet propio de `enjoyvideogames.com.co` hoy. Se mantiene como referencia sin reconfirmar. | — (sin snippet propio hoy) |
+
+**Comparación con la entrada anterior (2026-10-02, retailer por retailer):**
+- Mercado Libre: $3.589.900 (28% dcto.) → $3.589.900 (28% dcto.) (**sin cambio**, sigue cumpliendo la meta pero ya se notificó esta oportunidad ayer).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Ktronix: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Sony Store Colombia: $4.399.804 confirmado → sin reconfirmar hoy (se mantiene como última referencia, **sin evidencia de variación**).
+- Éxito: descartado por implausible → sin confirmar hoy tampoco (**sin cambio registrable**).
+- Falabella: $4.139.900 (17% dcto.) → sin reconfirmar hoy (se mantiene como última referencia, **sin evidencia de variación**).
+- Pepe Ganga: $4.199.900 (pre-order) → sin reconfirmar hoy (se mantiene como última referencia, **sin evidencia de variación**).
+- Colombian UP: $3.999.000 (11% dcto.) → sin reconfirmar hoy (se mantiene como última referencia, **sin evidencia de variación**).
+- Enjoy VideoGames: $3.699.000 (agotado) → sin reconfirmar hoy (se mantiene como última referencia, **sin evidencia de variación**).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% en ningún retailer (la única cifra confirmada hoy con detalle propio, Mercado Libre, es idéntica a la de ayer). Mercado Libre sigue cumpliendo la meta del usuario (≤$3.700.000 COP y ≥28% dcto.), pero esto **ya fue reportado el 2026-10-02** y no constituye una novedad nueva hoy. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo. Se obtuvo al menos un dato confiable hoy (Mercado Libre, Alkosto y Ktronix confirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación.**
