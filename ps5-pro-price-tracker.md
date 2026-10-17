@@ -1037,3 +1037,44 @@ No se pudo confirmar hoy: **Audio Color** (`audiocolor.co`, mencionado el 10-04,
 **Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% confirmada en ningún retailer con dato confiable hoy (todas las reconfirmaciones repiten exactamente sus últimas cifras conocidas). Ningún retailer alcanza la meta del usuario **por primera vez** hoy: la única ficha que podría seguir cumpliéndola (`MCO43294311`, y posiblemente `MCO41975964` si su cifra histórica de $3.334.110 sigue vigente) no se pudo reconfirmar de forma independiente hoy, y ya se había reportado en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo y confirmado hoy. Se obtuvo al menos un dato confiable hoy (Falabella SKU principal, Falabella Marketplace, Gameplay Colombia, Enjoy VideoGames, Colombian UP, Alkosto y Ktronix reconfirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación hoy.**
 
 ---
+
+
+## 2026-10-17
+
+**Intentos de acceso:** Google Shopping (`udm=28`, ambas queries indicadas en el prompt: "PS5 Pro Digital 2TB Colombia" y "sony ps5 pro") → bloqueado con `getaddrinfo ENOTFOUND www.google.com` (mismo patrón de bloqueo de red que en entradas anteriores). WebFetch directo a `store.sony.com.co/ps5-pro-hw-2tb/p` y `www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` → ambos bloqueados también con `getaddrinfo ENOTFOUND`. Se usó **WebSearch** de respaldo (modo extendido para la consulta general, estándar para las dirigidas por retailer con `site:` para Falabella, Alkosto/Ktronix, Sony Store y Mercado Libre) para reconstruir precios a partir de los snippets.
+
+**Nota de calidad de datos:** la búsqueda `site:mercadolibre.com.co` no devolvió hoy ningún resultado del dominio colombiano (solo resultados de México, Argentina y Guatemala para modelos equivalentes, en monedas no comparables), por lo que ninguna de las dos fichas de Mercado Libre (`MCO43294311` y `MCO41975964`) pudo reconfirmarse de forma independiente hoy — se mantienen ambas como referencia sin cambios. La búsqueda `site:store.sony.com.co` tampoco devolvió ningún snippet propio del dominio (solo resultados internacionales de otras tiendas Sony), igual que en entradas anteriores. Falabella (SKU principal y marketplace "Rxggames"), Alkosto/Ktronix (agotados, mismo código 711719595700), Gameplay Colombia, Enjoy VideoGames y Colombian UP sí se reconfirmaron hoy con cifras idénticas a las últimas conocidas.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Falabella (SKU 145535455/145535456) | $4.139.900 (17% dcto.) | Reconfirmado hoy en la búsqueda general ("sin stock en tienda en el local de Usaquén" según el snippet, pero disponible en el listado). Cifra idéntica a entradas anteriores. **Sin cambio.** No alcanza la meta. | WebSearch (extendido) |
+| Falabella Marketplace ("Rxggames", listado "Digital 2TB" separado) | $4.599.900 (precio de lista $5.999.000, ~23% dcto.) | Reconfirmado hoy vía `site:falabella.com.co`, sin contradicción. Cifra idéntica a la última conocida. **Sin cambio.** No es la SKU principal monitoreada. | WebSearch (`site:falabella.com.co`) |
+| Gameplay Colombia | $4.299.900 (precio de lista $4.499.900, ~4,4% dcto.) | Reconfirmado hoy en la búsqueda general, nuevamente como **agotado**. Cifra idéntica a la conocida. **Sin cambio.** | WebSearch (extendido) |
+| Enjoy VideoGames | $3.699.000 (**producto agotado / sin stock**) | Reconfirmado hoy en la búsqueda general. Cifra idéntica a la última conocida. Sigue sin disponibilidad real. **Sin cambio.** | WebSearch (extendido) |
+| Colombian UP | $3.950.000 (precio de lista $4.500.000, ~12,2% dcto.) | Reconfirmado hoy en la búsqueda general. Cifra idéntica a entradas anteriores. **Sin cambio.** No alcanza la meta. | WebSearch (extendido) |
+| Alkosto | Sin precio (**producto agotado / sin stock**) | Reconfirmado hoy vía `site:alkosto.com`, mismo código de producto (711719595700). **Sin cambio.** | WebSearch (`site:alkosto.com`) |
+| Ktronix | Sin precio (**producto agotado / sin stock**) | Reconfirmado hoy vía la misma búsqueda (listado hermano con idéntico código de producto). **Sin cambio.** | WebSearch (`site:alkosto.com`) |
+| Mercado Libre (MCO41975964) ⚠️ | Sin reconfirmar hoy, ni la cifra histórica ($3.334.110) ni la posible subida señalada el 10-15 ($3.699.900) | No se pudo reconfirmar de forma independiente hoy (`site:mercadolibre.com.co` solo devolvió resultados de México/Argentina/Guatemala). Se mantienen ambas cifras como referencia sin resolver: $3.334.110 (última confirmada, 2026-10-11 a 10-14, cumple la meta) y $3.699.900 (posible subida sin confirmar, 2026-10-15). | — (sin snippet propio hoy) |
+| Mercado Libre (MCO43294311) | Sin reconfirmar hoy (última cifra conocida: $3.589.900, precio de lista no confirmado, 28% dcto., 2026-10-15) | Mismo problema de `site:` sin resultados del dominio colombiano. Se mantiene el último valor conocido como referencia; de no haber cambiado, sigue cumpliendo la meta del usuario. | — (sin snippet propio hoy) |
+| Sony Store Colombia | Sin reconfirmar hoy (última cifra conocida: $4.399.803, precio de lista $4.599.900, 2026-10-13) | La búsqueda `site:store.sony.com.co` no devolvió ningún snippet propio del dominio hoy (solo resultados internacionales de otras tiendas Sony). WebFetch directo también bloqueado. Se mantiene como referencia sin reconfirmar. | — (sin snippet propio hoy) |
+| Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, precio de lista $4.400.000, ~12,5% dcto., 2026-10-14) | No se encontró snippet propio del dominio hoy. Se mantiene como referencia sin reconfirmar. | — (sin snippet propio hoy) |
+| Tu360Compras (Bancolombia) | Sin reconfirmar hoy (última cifra conocida: $4.170.903, precio de lista $4.299.900, 3% dcto., 2026-10-15) | No se encontró snippet propio del dominio hoy. Se mantiene como referencia sin reconfirmar. | — (sin snippet propio hoy) |
+| Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, precio de lista $5.927.000, ~30% dcto., 2026-10-09 — con advertencia de posible precio "ancla" inflado y posible vencimiento de la oferta, pendiente de verificación manual) | No se encontró ningún resultado reconocible de este retailer hoy. Se mantiene como referencia sin reconfirmar, con la misma advertencia de entradas anteriores. | — (sin snippet propio hoy) |
+| Éxito | Sin precio confiable hoy (sin reconfirmar) | No se encontró snippet con precio del dominio hoy. **No se registra cifra — no inventada.** | — (sin snippet con precio hoy) |
+
+**Comparación con la entrada anterior (2026-10-16, retailer por retailer):**
+- Falabella (SKU principal): $4.139.900 (17% dcto.) → $4.139.900 (17% dcto.) (**sin cambio**).
+- Falabella Marketplace (Rxggames): $4.599.900 (~23% dcto.) → $4.599.900 (~23% dcto.) (**sin cambio**).
+- Gameplay Colombia: $4.299.900 agotado → $4.299.900 agotado (**sin cambio**).
+- Enjoy VideoGames: $3.699.000 agotado → $3.699.000 agotado (**sin cambio**).
+- Colombian UP: $3.950.000 (~12,2% dcto.) → $3.950.000 (~12,2% dcto.) (**sin cambio**).
+- Alkosto: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Ktronix: agotado/sin precio → agotado/sin precio (**sin cambio**).
+- Mercado Libre (MCO41975964): sin reconfirmar el 10-16 → sigue sin confirmar ni descartar hoy (**sin novedad verificable**; se mantiene la ambigüedad, no cuenta como bajada ni como subida confirmada).
+- Mercado Libre (MCO43294311): sin reconfirmar el 10-16 → sigue sin reconfirmar hoy (**sin evidencia de variación**; se mantiene como referencia).
+- Sony Store, Cadena Multi, Tu360Compras, Operación Sistémica, Éxito: sin reconfirmar hoy (**sin evidencia de variación**; se mantienen como referencia).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno.
+
+**Conclusión de hoy:** No se detectó ninguna bajada de precio ≥10% confirmada en ningún retailer con dato confiable hoy (todas las reconfirmaciones repiten exactamente sus últimas cifras conocidas). Ningún retailer alcanza la meta del usuario **por primera vez** hoy: la única ficha que podría seguir cumpliéndola (`MCO43294311`, y posiblemente `MCO41975964` si su cifra histórica de $3.334.110 sigue vigente) no se pudo reconfirmar de forma independiente hoy, y ya se había reportado en entradas anteriores. No apareció ningún retailer, bundle, cupón o cambio de disponibilidad genuinamente nuevo y confirmado hoy. Se obtuvo al menos un dato confiable hoy (Falabella SKU principal, Falabella Marketplace, Gameplay Colombia, Enjoy VideoGames, Colombian UP, Alkosto y Ktronix reconfirmados), por lo que no aplica la condición de "2 días seguidos sin datos confiables de NINGÚN retailer". **No se cumplió ninguna condición de notificación hoy.**
+
+---
