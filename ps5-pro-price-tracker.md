@@ -1998,3 +1998,38 @@ Para los demás retailers: la búsqueda general y la dirigida a Falabella/Alkost
 | Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto., 2026-10-09 — advertencia de posible precio "ancla" inflado, pendiente de verificación manual) | Sin resultado hoy. | — (sin resultado hoy) |
 
 **Evaluación de condiciones de notificación:** hoy se cumple una condición de notificación — **Enjoy VideoGames** muestra en un snippet de búsqueda un precio de $3.290.000 "en stock" para la PS5 Pro 2TB (interpretada como Digital por exclusión frente a la variante con disco), frente a su último precio confirmado y fechado de $3.699.000 agotado (2026-11-03): esto es una baja de ~11% (≥10%) Y un precio por debajo de la meta de $3.700.000 COP, Y un cambio de disponibilidad (agotado → en stock) — tres señales a la vez, aunque **ninguna verificada con fetch directo** por el bloqueo de red del host, y sin fecha explícita en el snippet. Dada la importancia explícita de detectar el cumplimiento de la meta, se notifica al usuario con la advertencia de que el dato proviene solo de un snippet de búsqueda y requiere verificación manual antes de cualquier decisión de compra. Para el resto de retailers no hubo bajas ≥10% ni cumplimiento de meta reconfirmado, y no hay dos días seguidos sin datos. **Corresponde notificar al usuario por el hallazgo de Enjoy VideoGames (pendiente de confirmación manual).**
+
+## 2026-11-12
+
+**Intentos de acceso directo:** `WebFetch` a `https://www.google.com/search?q=PS5+Pro+Digital+2TB+Colombia&udm=28&hl=es&gl=co`, a `https://store.sony.com.co/ps5-pro-hw-2tb/p` y a `https://www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` fallaron todos con `getaddrinfo ENOTFOUND` (mismo bloqueo de red de días anteriores; no se reintentó la segunda consulta `udm=28` porque el host base de Google ya estaba bloqueado). Se usó `WebSearch` de respaldo con consultas generales y dirigidas a Alkosto, Falabella y Mercado Libre Colombia.
+
+**Hallazgos de hoy:** se reconfirmaron, sin cambios, los mismos datos ya registrados ayer (2026-11-11):
+- **Enjoy VideoGames:** sigue apareciendo en $3.290.000 COP, "en stock" (modelo CFI-7000B01, sin lector de disco, se infiere Digital por exclusión). Mismo dato que ayer, sin fecha visible en el snippet y sin poder confirmarse con fetch directo (bloqueo de red). No es una novedad — ya se había registrado y notificado ayer.
+- **Alkosto / Alkomprar (711719595700):** sigue "agotado", sin unidades ni precio visible.
+- **Falabella Marketplace ("Rxggames"):** mismas cifras que días anteriores ($4.699.900 -22%, $4.999.900 -17% lista $5.999.000).
+- **Falabella bundles (156804726 / 156109421):** mismas cifras que ayer ($5.399.800 lista $5.599.800, y el bundle de 2 controles sin precio visible).
+- **Mercado Libre Colombia:** no se encontró ninguna ficha con precio vigente hoy (igual que ayer).
+- Para el resto de retailers del historial (Falabella SKU 145535455/145535456, Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Sony Store Colombia, Éxito, Falabella producto 137865821, Cadena Multi, Operación Sistémica) no apareció ningún snippet propio hoy; se mantienen sin reconfirmar sus últimas cifras conocidas. **No se inventó ninguna cifra.**
+
+**Comparación con la entrada anterior (2026-11-11):** sin cambios reales. Ningún retailer bajó de precio, ninguno alcanzó la meta por primera vez (Enjoy VideoGames ya estaba señalado ayer con la misma cifra sin confirmar), no aparecieron retailers nuevos ni desaparecieron retailers, y sí se obtuvo información (aunque no confirmada por fetch directo) para varios retailers, por lo que no aplica la condición de "sin datos confiables dos días seguidos".
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Enjoy VideoGames ⚠️ (sin confirmar por fetch directo) | $3.290.000 | "En stock", modelo CFI-7000B01, sin lector de disco. Idéntico al dato ya registrado y notificado ayer (2026-11-11); no es novedad hoy. | WebSearch (estándar) |
+| Falabella bundle "2TB Digital + 2 Mandos + Cargador Dobe" (producto 156804726) ⚠️ | $5.399.800 (lista $5.599.800) | Sin cambio vs. días anteriores. No comparable al precio de la consola sola. | WebSearch (estándar) |
+| Alkosto / Alkomprar / Ktronix (código 711719595700) | Sin precio (producto **agotado / sin stock**) | Reconfirmado hoy: sigue sin unidades disponibles. | WebSearch (estándar) |
+| Falabella bundle "2 controles DualSense + base de carga Dobe" (producto 156109421) | Sin precio visible en el snippet | Sin cambio vs. ayer. | — (sin precio en snippet) |
+| Falabella Marketplace ("Rxggames") ⚠️ | $4.699.900 -22% / $4.999.900 -17% lista $5.999.000 | Reconfirmado hoy, mismas cifras de días anteriores; advertencias de precio "ancla" de entradas previas se mantienen. | WebSearch (estándar) |
+| Falabella (SKU 145535455/145535456) | Sin reconfirmar hoy (última cifra conocida: $4.139.900 -17%, lista $4.299.900) | No apareció con precio en los resultados de hoy. | — (sin precio en snippet hoy) |
+| Mercado Libre Colombia | Sin reconfirmar hoy (última cifra confiable conocida: $3.589.900, 2026-10-21/10-23; y $3.334.110 para MCO41975964) | Sin ficha con precio vigente hoy. | — (sin resultado hoy) |
+| Tu360Compras (Sony vía Bancolombia) | Sin reconfirmar hoy (última cifra conocida: $4.170.903, lista $4.299.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Colombianup ⚠️ | Sin reconfirmar hoy (último dato conocido: $3.950.000, ~12,2% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Teknopolis ⚠️ (sin confirmar) | Sin reconfirmar hoy (última mención especulativa: $3.890.000) | Sin resultado hoy. | — (sin resultado hoy) |
+| Gameplay Colombia | Sin reconfirmar hoy (última cifra conocida: $4.299.900 agotado, lista $4.499.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Sony Store Colombia (ficha directa store.sony.com.co) | Sin reconfirmar hoy (última cifra conocida: $4.399.803, lista $4.599.900) | WebFetch directo bloqueado (`getaddrinfo ENOTFOUND`). | — (sin snippet propio confiable hoy) |
+| Éxito | Sin reconfirmar hoy (últimas cifras conocidas: bundle 103972507-mp $4.989.065, ficha 104366926-mp $5.048.950) | Sin resultado del dominio exito.com hoy. | — (sin resultado hoy) |
+| Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
+| Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
+
+**Evaluación de condiciones de notificación:** no se cumple ninguna condición hoy. No hubo bajas de precio ≥10% respecto a la entrada anterior para ningún retailer, ningún retailer alcanzó la meta por primera vez (el único candidato, Enjoy VideoGames, ya estaba registrado y notificado con la misma cifra sin confirmar desde ayer), no hay retailers nuevos ni novedades reales (bundle, cupón, disponibilidad) distintas de lo ya reportado, y sí hubo datos (aunque parcialmente sin confirmar por fetch directo) para varios retailers, por lo que tampoco aplica la condición de "sin precio confiable dos días seguidos". **No corresponde notificar al usuario hoy.**
