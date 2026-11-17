@@ -2209,3 +2209,46 @@ Para los demás retailers: la búsqueda general y la dirigida a Falabella/Alkost
 | Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
 
 **Evaluación de condiciones de notificación:** no hubo ninguna baja de precio ≥10% confirmada respecto al último precio registrado para ningún retailer (Enjoy VideoGames y Falabella Marketplace "Rxggames" se mantienen en sus cifras ya conocidas; la cifra alternativa más baja de ayer para Falabella Marketplace no se repitió hoy, por lo que no hay evidencia de una baja adicional); ningún retailer alcanza o supera la meta del usuario con disponibilidad real y fiable hoy (Enjoy VideoGames sigue sin confirmación directa, con su ambigüedad de modelo sin resolver, y ya fue notificado el 2026-11-11); no hay ninguna novedad real y concreta (sin retailers nuevos, sin bundles o cupones nuevos, sin cambios de disponibilidad confirmados); sí se obtuvo información con fuente de al menos dos retailers hoy, por lo que no aplica la condición de dos días seguidos sin datos. **No corresponde notificar al usuario; se cumplió solo el registro diario, sin cambios significativos que reportar.**
+## 2026-11-17
+
+**Intentos de acceso directo:** `WebFetch` a `https://www.google.com/search?q=PS5+Pro+Digital+2TB+Colombia&udm=28&hl=es&gl=co`, a `https://store.sony.com.co/ps5-pro-hw-2tb/p` y a `https://www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` fallaron todos con `getaddrinfo ENOTFOUND` (mismo bloqueo de red de días anteriores). Se usó `WebSearch` de respaldo con consultas generales ("PS5 Pro Digital 2TB precio Colombia"), dirigidas a Falabella/Alkosto/Éxito, a Éxito.com específicamente, a Mercado Libre Colombia específicamente, y a Enjoy VideoGames y Falabella "Rxggames" específicamente.
+
+**Hallazgos de hoy:**
+- **Enjoy VideoGames ⚠️ (modelo disputado):** reaparece en $3.290.000 COP ("en stock", página de categoría PlayStation) — idéntico al dato ya registrado y notificado el 2026-11-11. Una página distinta del mismo sitio ("De sobremesa") mostró $3.500.000 para lo que parece el mismo producto; sin fecha confiable y sin poder determinar cuál cifra está vigente, se trata como ruido/inconsistencia ya conocida, no como cambio de precio confirmado.
+- **Falabella Marketplace ("Rxggames"):** hoy volvieron a aparecer las tres cifras inconsistentes ya vistas en días previos ($4.699.900 -22%, $4.599.900 -23%, $4.999.900 -17%, todas con lista $5.999.000), sin fecha que permita saber cuál es la vigente. Se mantiene como reconfirmación de cifras ya conocidas, no como baja nueva.
+- **Falabella bundle 156804726** ("2TB Digital + 2 Mandos + Cargador Dobe"): reconfirmado $5.399.800 (lista $5.599.800), sin cambio.
+- **Falabella bundle 156109421** ("2 controles DualSense + base de carga Dobe"): reconfirmado $5.599.800 (antes $5.699.800), sin cambio frente a la última cifra conocida.
+- **Falabella (producto 145535455):** apareció en resultados de hoy pero sin precio visible en el snippet. No se pudo reconfirmar ninguna cifra.
+- **Alkosto / Alkomprar (711719595700):** reconfirmado como "Producto agotado" (sin stock), sin precio. Sin cambio.
+- **Éxito:** no se encontró ningún listado de la PS5 Pro Digital 2TB con precio hoy (solo aparecieron modelos distintos: PS5 Digital Edition 825GB estándar y PS5 Slim Digital 825GB, que no son la Pro y no se registran aquí). No se pudo reconfirmar ninguna cifra para la Pro.
+- **Mercado Libre Colombia:** búsqueda específica no encontró ninguna ficha colombiana con precio vigente hoy (solo resultados de otros países/monedas, no aplicables).
+- **Sony Store Colombia:** sin precio actual confirmado; WebFetch directo bloqueado. Solo aparece en resultados generales el precio de lanzamiento ya conocido ($4.199.900, sin fecha confiable).
+- Para el resto de retailers del historial (Falabella SKU 145535456, Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica) no apareció ningún snippet propio hoy; se mantienen sin reconfirmar sus últimas cifras conocidas. **No se inventó ninguna cifra.**
+
+**Comparación con la entrada anterior (2026-11-16, retailer por retailer):**
+- Enjoy VideoGames: $3.290.000 "en stock" → mismo precio y estado hoy. **Sin cambio.** (La cifra alternativa $3.500.000 de una página distinta del mismo sitio no se trata como cambio confirmado por falta de fecha confiable y por tratarse de una fuente ya marcada como ambigua.)
+- Falabella Marketplace "Rxggames": ayer solo $4.699.900 (-22%) → hoy reaparecen las tres cifras históricas inconsistentes ($4.699.900/$4.599.900/$4.999.900). **Sin cambio confirmado** (no hay evidencia de una baja real nueva; se mantiene la advertencia de cifras inestables entre snippets).
+- Falabella bundle 156804726: $5.399.800 → $5.399.800. **Sin cambio.**
+- Falabella bundle 156109421: $5.599.800 → $5.599.800. **Sin cambio.**
+- Alkosto/Alkomprar, Éxito, Sony Store, Mercado Libre Colombia, Falabella (SKU 145535455/145535456), Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica: sin reconfirmar hoy (**sin evidencia de variación real**; se mantienen como referencia sus últimas cifras conocidas).
+- Retailers nuevos confirmados: ninguno. Retailers desaparecidos: ninguno. Ningún retailer alcanzó la meta del usuario (≤$3.700.000 o ≤20% descuento) de forma nueva y confiable hoy.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Enjoy VideoGames ⚠️ (modelo disputado, sin confirmar por fetch directo) | $3.290.000 | "En stock", página de categoría PlayStation. Idéntico al dato ya registrado y notificado el 2026-11-11. Una página distinta del mismo sitio mostró $3.500.000, sin fecha confiable; no se usa como cifra vigente. Sin cambio hoy. | WebSearch (estándar) |
+| Falabella Marketplace ("Rxggames") ⚠️ | $4.699.900 (-22%) / $4.599.900 (-23%) / $4.999.900 (-17%), lista $5.999.000 (cifras inconsistentes sin fecha) | Reaparecen las tres cifras históricas inconsistentes. Se mantiene la advertencia de precio "ancla"/cifras inestables entre snippets. | WebSearch (estándar) |
+| Falabella bundle "2TB Digital + 2 Mandos + Cargador Dobe" (producto 156804726) ⚠️ | $5.399.800 (lista $5.599.800) | Sin cambio vs. días anteriores. No comparable al precio de la consola sola. | WebSearch (estándar) |
+| Falabella bundle "2 controles DualSense + base de carga Dobe" (producto 156109421) | $5.599.800 (antes $5.699.800) | Sin cambio vs. la última cifra conocida. Bundle con accesorios, no comparable al precio de la consola sola. | WebSearch (estándar) |
+| Falabella (producto 145535455, "Consola Playstation 5 Pro Digital 2 TB") | Sin reconfirmar hoy (sin cifra conocida previa en este tracker) | Apareció en resultados de hoy pero sin precio visible en el snippet. | — (sin precio en snippet hoy) |
+| Alkosto / Alkomprar / Ktronix (código 711719595700) | Sin precio (producto **agotado / sin stock**) | Reconfirmado hoy: sigue sin unidades disponibles. | WebSearch (estándar) |
+| Falabella (SKU 145535455/145535456) | Sin reconfirmar hoy (última cifra conocida: $4.139.900 -17%, lista $4.299.900) | No apareció con precio en los resultados de hoy. | — (sin precio en snippet hoy) |
+| Sony Store Colombia (ficha directa store.sony.com.co) | Sin reconfirmar hoy (última cifra conocida: $4.399.803, lista $4.599.900) | WebFetch directo bloqueado (`getaddrinfo ENOTFOUND`). Solo aparece el precio de lanzamiento $4.199.900, sin fecha confiable. | — (sin snippet propio confiable hoy) |
+| Éxito | Sin reconfirmar hoy (últimas cifras conocidas: bundle 103972507-mp $4.989.065, ficha 104366926-mp $5.048.950) | No se encontró ningún listado de la Pro con precio hoy (solo modelos distintos no Pro). | — (sin resultado hoy) |
+| Mercado Libre Colombia | Sin reconfirmar hoy (última cifra confiable conocida: $3.589.900, 2026-10-21/10-23; y $3.334.110 para MCO41975964) | Búsqueda específica sin ficha colombiana con precio vigente hoy (solo resultados de otros países). | — (sin resultado hoy) |
+| Tu360Compras (Sony vía Bancolombia) | Sin reconfirmar hoy (última cifra conocida: $4.170.903, lista $4.299.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Colombianup ⚠️ | Sin reconfirmar hoy (último dato conocido: $3.950.000, ~12,2% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Teknopolis ⚠️ (sin confirmar) | Sin reconfirmar hoy (última mención especulativa: $3.890.000) | Sin resultado hoy. | — (sin resultado hoy) |
+| Gameplay Colombia | Sin reconfirmar hoy (última cifra conocida: $4.299.900 agotado, lista $4.499.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
+| Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
