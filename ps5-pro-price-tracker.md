@@ -2252,3 +2252,46 @@ Para los demás retailers: la búsqueda general y la dirigida a Falabella/Alkost
 | Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
 | Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
 | Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
+
+## 2026-11-18
+
+**Intentos de acceso directo:** `WebFetch` a `https://www.google.com/search?q=PS5+Pro+Digital+2TB+Colombia&udm=28&hl=es&gl=co`, a `https://www.google.com/search?q=sony+ps5+pro&udm=28&hl=es&gl=co`, a `https://store.sony.com.co/ps5-pro-hw-2tb/p` y a `https://www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` fallaron todos con `getaddrinfo ENOTFOUND` (mismo bloqueo de red de días anteriores). Se usó `WebSearch` de respaldo con consultas generales y dirigidas a Falabella, Alkosto, Éxito, Mercado Libre Colombia, Enjoy VideoGames y Sony Store Colombia específicamente.
+
+**Hallazgos de hoy:**
+- **Enjoy VideoGames:** la búsqueda de hoy no reconfirmó el precio de $3.290.000 para la Pro Digital; solo surgió un listado de PS5 Slim 1TB Digital a $1.930.000 (agotado), que es un modelo distinto. No se pudo reconfirmar ninguna cifra para la Pro hoy.
+- **Falabella Marketplace ("Rxggames"):** reaparecen las cifras ya conocidas $4.699.900 (-22%) y $4.599.900 (-23%) frente a lista $5.999.000, sin fecha que permita saber cuál está vigente. Sin cambio confirmado.
+- **Falabella bundle 156804726** y **bundle 156109421:** ambos títulos reaparecieron en los resultados de búsqueda, pero sin precio visible en el snippet de hoy. No se pudo reconfirmar ninguna cifra; se mantienen las últimas conocidas ($5.399.800 y $5.599.800 respectivamente).
+- **Falabella (producto 145535455):** apareció el título en los resultados, sin precio en el snippet. Sin cambio.
+- **Alkosto / Alkomprar / Ktronix (711719595700):** reconfirmado como "Producto agotado" (sin stock, sin unidades disponibles para venta en línea). Sin cambio.
+- **Éxito:** no se encontró ningún listado de la Pro Digital 2TB con precio hoy. No se pudo reconfirmar ninguna cifra.
+- **Mercado Libre Colombia:** no apareció ninguna ficha colombiana con precio vigente hoy (solo resultados de Argentina, Perú, Chile y México, no aplicables). No se pudo reconfirmar ninguna cifra.
+- **Sony Store Colombia:** sin precio actual confirmado; WebFetch directo bloqueado. Solo referencias al precio de lanzamiento $4.199.900, sin fecha confiable y sin confirmar que corresponda a la edición Digital 2TB.
+- Para el resto de retailers del historial (Falabella SKU 145535456, Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica) no apareció ningún snippet propio hoy; se mantienen sin reconfirmar sus últimas cifras conocidas. **No se inventó ninguna cifra.**
+
+**Comparación con la entrada anterior (2026-11-17, retailer por retailer):**
+- Enjoy VideoGames: $3.290.000 "en stock" (último dato conocido) → hoy sin reconfirmación (snippet de hoy correspondía a otro modelo). **Sin cambio confirmado**, solo pérdida temporal de reconfirmación.
+- Falabella Marketplace "Rxggames": mismas cifras inconsistentes de siempre ($4.699.900/$4.599.900 vs lista $5.999.000). **Sin cambio.**
+- Falabella bundle 156804726: $5.399.800 → sin precio en snippet hoy, se mantiene como última cifra conocida. **Sin cambio confirmado.**
+- Falabella bundle 156109421: $5.599.800 → sin precio en snippet hoy, se mantiene como última cifra conocida. **Sin cambio confirmado.**
+- Alkosto/Alkomprar, Éxito, Sony Store, Mercado Libre Colombia, Falabella (SKU 145535455/145535456), Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica: sin reconfirmar hoy (**sin evidencia de variación real**; se mantienen como referencia sus últimas cifras conocidas).
+- Retailers nuevos confirmados: ninguno. Retailers desaparecidos: ninguno (Alkosto sigue listado, solo sin stock). Ningún retailer alcanzó la meta del usuario (≤$3.700.000 o ≤20% descuento) de forma nueva y confiable hoy. Ninguna bajada de precio ≥10% confirmada para ningún retailer respecto a su última cifra registrada.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Enjoy VideoGames ⚠️ (sin reconfirmar hoy) | Sin reconfirmar hoy (última cifra conocida: $3.290.000, "en stock", 2026-11-11 y reconfirmado 2026-11-17) | El snippet de hoy correspondía a un modelo distinto (PS5 Slim 1TB Digital, agotado). | — (sin snippet propio confiable hoy) |
+| Falabella Marketplace ("Rxggames") ⚠️ | $4.699.900 (-22%) / $4.599.900 (-23%), lista $5.999.000 (cifras inconsistentes sin fecha) | Reaparecen las cifras históricas ya conocidas. Se mantiene la advertencia de precio "ancla"/cifras inestables entre snippets. | WebSearch (estándar) |
+| Falabella bundle "2TB Digital + 2 Mandos + Cargador Dobe" (producto 156804726) ⚠️ | Sin reconfirmar hoy (última cifra conocida: $5.399.800, lista $5.599.800) | Título reapareció en resultados, sin precio en el snippet. No comparable al precio de la consola sola. | — (sin precio en snippet hoy) |
+| Falabella bundle "2 controles DualSense + base de carga Dobe" (producto 156109421) | Sin reconfirmar hoy (última cifra conocida: $5.599.800) | Título reapareció en resultados, sin precio en el snippet. Bundle con accesorios, no comparable al precio de la consola sola. | — (sin precio en snippet hoy) |
+| Falabella (producto 145535455, "Consola Playstation 5 Pro Digital 2 TB") | Sin reconfirmar hoy (sin cifra conocida previa en este tracker) | Título apareció en resultados de hoy, sin precio visible en el snippet. | — (sin precio en snippet hoy) |
+| Alkosto / Alkomprar / Ktronix (código 711719595700) | Sin precio (producto **agotado / sin stock**) | Reconfirmado hoy: sigue sin unidades disponibles para venta en línea. | WebSearch (estándar) |
+| Falabella (SKU 145535455/145535456) | Sin reconfirmar hoy (última cifra conocida: $4.139.900 -17%, lista $4.299.900) | No apareció con precio en los resultados de hoy. | — (sin precio en snippet hoy) |
+| Sony Store Colombia (ficha directa store.sony.com.co) | Sin reconfirmar hoy (última cifra conocida: $4.399.803, lista $4.599.900) | WebFetch directo bloqueado (`getaddrinfo ENOTFOUND`). Solo aparece el precio de lanzamiento $4.199.900, sin fecha confiable. | — (sin snippet propio confiable hoy) |
+| Éxito | Sin reconfirmar hoy (últimas cifras conocidas: bundle 103972507-mp $4.989.065, ficha 104366926-mp $5.048.950) | No se encontró ningún listado de la Pro con precio hoy. | — (sin resultado hoy) |
+| Mercado Libre Colombia | Sin reconfirmar hoy (última cifra confiable conocida: $3.589.900, 2026-10-21/10-23; y $3.334.110 para MCO41975964) | Sin ficha colombiana con precio vigente hoy (solo resultados de otros países). | — (sin resultado hoy) |
+| Tu360Compras (Sony vía Bancolombia) | Sin reconfirmar hoy (última cifra conocida: $4.170.903, lista $4.299.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Colombianup ⚠️ | Sin reconfirmar hoy (último dato conocido: $3.950.000, ~12,2% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Teknopolis ⚠️ (sin confirmar) | Sin reconfirmar hoy (última mención especulativa: $3.890.000) | Sin resultado hoy. | — (sin resultado hoy) |
+| Gameplay Colombia | Sin reconfirmar hoy (última cifra conocida: $4.299.900 agotado, lista $4.499.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
+| Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
