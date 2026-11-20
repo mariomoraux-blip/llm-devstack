@@ -2335,3 +2335,48 @@ Para los demás retailers: la búsqueda general y la dirigida a Falabella/Alkost
 | Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
 | Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
 | Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
+
+## 2026-11-20
+
+**Intentos de acceso directo:** `WebFetch` a `https://www.google.com/search?q=PS5+Pro+Digital+2TB+Colombia&udm=28&hl=es&gl=co` falló con `getaddrinfo ENOTFOUND` (host fuera de la red permitida de la sesión; no se reintentó la segunda URL de Google por ser el mismo host). `WebFetch` directo a `https://store.sony.com.co/ps5-pro-hw-2tb/p`, `https://www.alkosto.com/consola-ps5-pro-digital-2-tb-blanco-1-control-inalambrico/p/711719595700` y `https://www.falabella.com.co/falabella-co/product/145535455/Consola-Playstation-5-Pro-Digital-2-TB` también fallaron todos con `getaddrinfo ENOTFOUND`. Se usó `WebSearch` de respaldo con consultas generales y dirigidas a Falabella, Alkosto, Éxito, Mercado Libre Colombia, Enjoy VideoGames y Sony Store Colombia.
+
+**Hallazgos de hoy:**
+- **Falabella Marketplace ("Rxggames"), producto genérico PS5 Pro Digital 2TB:** reconfirmado en **$4.699.900 con 22% de descuento** (lista $5.999.000 según historial). Misma cifra que el último dato conocido. **Sin cambio.**
+- **Falabella bundle "2TB Digital + 2 Mandos + Cargador Dobe" (producto 156804726):** reconfirmado en **$5.399.800** (lista $5.599.800). Sin cambio.
+- **Falabella bundle "2 controles DualSense + base de carga Dobe" (producto 156109421):** reconfirmado en **$5.599.800**. Sin cambio.
+- **Alkosto / Alkomprar / Ktronix (711719595700):** reconfirmado como **"Producto agotado"** (sin stock). Sin cambio.
+- **Enjoy VideoGames:** reconfirmado en **$3.290.000 "en stock"** (misma cifra conocida desde entradas anteriores; snippet sin fecha propia, baja confiabilidad histórica). Sin cambio. No apareció hoy la segunda cifra de $3.500.000 vista ayer.
+- **Desertcart Colombia:** reconfirmado en **COP 6.120.212**, "in stock, free shipping" — sigue siendo un precio muy por encima del resto, probable reseller/importador y sin confirmar que corresponda específicamente a la edición Digital 2TB. No se trata como novedad real.
+- **Éxito:** no se encontró ningún listado de la Pro Digital 2TB con precio hoy. No se pudo reconfirmar ninguna cifra.
+- **Sony Store Colombia:** no se encontró la ficha oficial con precio en los resultados de hoy (ni por WebFetch directo, bloqueado, ni por WebSearch).
+- **Mercado Libre Colombia:** no apareció ninguna ficha colombiana con precio vigente hoy (solo resultados de México y Argentina, no aplicables).
+- Para el resto de retailers del historial (Falabella SKU 145535455/145535456, Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica) no apareció ningún snippet propio hoy; se mantienen sin reconfirmar sus últimas cifras conocidas. **No se inventó ninguna cifra.**
+
+**Comparación con la entrada anterior (2026-11-19, retailer por retailer):**
+- Falabella Marketplace (Rxggames), bundles 156804726/156109421: reconfirmados hoy con las mismas cifras ya conocidas. **Sin cambio.**
+- Alkosto: sigue agotado. **Sin cambio.**
+- Enjoy VideoGames: reconfirmado en $3.290.000, igual que la última cifra conocida. **Sin cambio** (la segunda cifra más alta de $3.500.000 vista ayer no reapareció hoy, pero como nunca fue una baja, su ausencia tampoco es una novedad).
+- Desertcart Colombia: misma cifra que ayer (COP 6.120.212). **Sin cambio.**
+- Éxito, Sony Store, Mercado Libre Colombia, Falabella (SKU 145535455/145535456), Tu360Compras, Colombianup, Teknopolis, Gameplay Colombia, Falabella producto 137865821, Cadena Multi, Operación Sistémica: sin reconfirmar hoy (**sin evidencia de variación real**; se mantienen como referencia sus últimas cifras conocidas).
+- Retailers nuevos: ninguno. Retailers desaparecidos: ninguno (todos los de ayer que tenían cifra propia se reconfirmaron hoy con el mismo valor). Ningún retailer alcanzó la meta del usuario (≤$3.700.000 o ≤20% descuento) de forma nueva y confiable hoy — Enjoy VideoGames ($3.290.000) está por debajo de la meta de precio, pero es la misma cifra de baja confiabilidad ya registrada en entradas anteriores, no una novedad de hoy. Ninguna bajada de precio ≥10% confirmada para ningún retailer respecto a su última cifra registrada.
+
+| Retailer | Precio COP | Oferta/nota | Fuente |
+|---|---|---|---|
+| Falabella Marketplace ("Rxggames") ⚠️ | $4.699.900 -22% (lista $5.999.000) | Reconfirmado, misma cifra que la entrada anterior. | WebSearch (estándar) |
+| Falabella bundle "2TB Digital + 2 Mandos + Cargador Dobe" (producto 156804726) ⚠️ | $5.399.800 (lista $5.599.800) | Reconfirmado, sin cambio. | WebSearch (estándar) |
+| Falabella bundle "2 controles DualSense + base de carga Dobe" (producto 156109421) | $5.599.800 | Reconfirmado, sin cambio. | WebSearch (estándar) |
+| Alkosto / Alkomprar / Ktronix (código 711719595700) | Sin precio (producto **agotado / sin stock**) | Reconfirmado hoy: sigue sin unidades disponibles para venta en línea. | WebSearch (estándar) |
+| Enjoy VideoGames ⚠️ | $3.290.000 "en stock" | Reconfirmado, misma cifra ya conocida; snippet sin fecha propia, baja confiabilidad histórica. | WebSearch (estándar) |
+| Desertcart Colombia ⚠️ (baja confiabilidad) | $6.120.212 ("in stock, free shipping") | Reconfirmado, sin cambio. Precio muy por encima del resto; probable reseller/importador, sin confirmar que sea específicamente la edición Digital 2TB. | WebSearch (estándar) |
+| Falabella (producto 145535455, "Consola Playstation 5 Pro Digital 2 TB") | Sin reconfirmar hoy (sin cifra conocida previa en este tracker) | URL del producto apareció en resultados de hoy, sin precio visible en el snippet. | — (sin precio en snippet hoy) |
+| Falabella (SKU 145535455/145535456) | Sin reconfirmar hoy (última cifra conocida: $4.139.900 -17%, lista $4.299.900) | No apareció con precio en los resultados de hoy. | — (sin precio en snippet hoy) |
+| Sony Store Colombia (ficha directa store.sony.com.co) | Sin reconfirmar hoy (última cifra conocida: $4.399.803, lista $4.599.900) | WebFetch directo bloqueado (`getaddrinfo ENOTFOUND`). Ficha oficial no apareció en el buscador hoy. | — (sin snippet propio confiable hoy) |
+| Éxito | Sin reconfirmar hoy (últimas cifras conocidas: bundle 103972507-mp $4.989.065, ficha 104366926-mp $5.048.950) | No se encontró ningún listado de la Pro con precio hoy. | — (sin resultado hoy) |
+| Mercado Libre Colombia | Sin reconfirmar hoy (última cifra confiable conocida: $3.589.900, 2026-10-21/10-23; y $3.334.110 para MCO41975964) | Sin ficha colombiana con precio vigente hoy (solo resultados de otros países). | — (sin resultado hoy) |
+| Tu360Compras (Sony vía Bancolombia) | Sin reconfirmar hoy (última cifra conocida: $4.170.903, lista $4.299.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Colombianup ⚠️ | Sin reconfirmar hoy (último dato conocido: $3.950.000, ~12,2% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Teknopolis ⚠️ (sin confirmar) | Sin reconfirmar hoy (última mención especulativa: $3.890.000) | Sin resultado hoy. | — (sin resultado hoy) |
+| Gameplay Colombia | Sin reconfirmar hoy (última cifra conocida: $4.299.900 agotado, lista $4.499.900) | Sin resultado hoy. | — (sin resultado hoy) |
+| Falabella — producto 137865821 ⚠️ | Sin reconfirmar hoy (última cifra conocida: $3.699.900/$4.299.900, ambas agotadas) | Sin snippet propio hoy. | — (sin snippet propio hoy) |
+| Cadena Multi | Sin reconfirmar hoy (última cifra conocida: $3.850.000, ~12,5% dcto.) | Sin resultado hoy. | — (sin resultado hoy) |
+| Operación Sistémica ⚠️ | Sin reconfirmar hoy (última cifra conocida: $4.148.900, ~30% dcto. — advertencia de posible precio "ancla" inflado) | Sin resultado hoy. | — (sin resultado hoy) |
